@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "964050515073",
+    "project_id": "littlebird-e0122",
+    "storage_bucket": "littlebird-e0122.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964050515073:android:24771888af5419cd7cc980",
+        "android_client_info": {
+          "package_name": "com.example.littlebird"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964050515073-gisg1hq99el15tukt5hpjhs1hbb29k71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.littlebird",
+            "certificate_hash": "9207d4be803e2a7813e22a121c6ea19e186e2630"
+          }
+        },
+        {
+          "client_id": "964050515073-qib5db3p8evci3626bfd2cioob68ch2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfrCXZjHxVUQuZku1asoqQEUG63B-UCv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964050515073-qib5db3p8evci3626bfd2cioob68ch2u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "964050515073-emtvs0tnsik01l7gsm8j8oftho5u6l9b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.littlebird"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964050515073:android:dda0bb5d634b716b7cc980",
+        "android_client_info": {
+          "package_name": "com.ophen.littlebird"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964050515073-e1g88uj9k7ip17so0m21j9q5k76buhrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ophen.littlebird",
+            "certificate_hash": "9207d4be803e2a7813e22a121c6ea19e186e2630"
+          }
+        },
+        {
+          "client_id": "964050515073-qib5db3p8evci3626bfd2cioob68ch2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfrCXZjHxVUQuZku1asoqQEUG63B-UCv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964050515073-qib5db3p8evci3626bfd2cioob68ch2u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "964050515073-emtvs0tnsik01l7gsm8j8oftho5u6l9b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.littlebird"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

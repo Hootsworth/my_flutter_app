@@ -1,0 +1,71 @@
+name: littlebird
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# ... existing code ...
+version: 1.0.0+3
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Updated SDK constraint for modern Flutter
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  # Firebase Packages
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+  google_sign_in: ^6.2.1
+
+  # SVG Rendering Package
+  flutter_svg: ^2.0.10+1
+  url_launcher: ^6.3.2
+  firebase_storage: ^12.1.0
+
+  # --- NEW PACKAGE ---
+  # This package is required for the Nearby/BLE chat.
+  # This is just a placeholder; implementing it is a very advanced task!
+  nearby_connections: ^4.3.0
+  material: ^1.0.1
+  permission_handler: ^12.0.1
+  timeago: ^3.7.1
+  provider: ^6.1.5+1
+  image_picker: ^1.2.1
+  path_provider: ^2.1.5
+  share_plus: ^12.0.1
+
+dev_dependencies:
+  # ... existing code ...
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/spec
+# ... (rest of the file is unchanged)
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # We are loading the image from the network, so the assets section is not needed for the logo.
+  # assets:
+  #   - assets/google_logo.png
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+# ... existing code ...
